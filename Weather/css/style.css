@@ -1,0 +1,77 @@
+.body {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  /* background-image: url("img/weather-wallpaper-4.jpg"); */
+  background: rgb(0, 110, 255);
+}
+
+.img {
+  width: 100%;
+  height: auto;
+}
+
+#findreg {
+  font-size: 30px;
+  text-align: center;
+  background-color: grey;
+  height: 40px;
+  margin: 0;
+}
+
+#yoreg {
+  font-size: 25px;
+  margin: 0;
+  text-align: center;
+}
+
+#weat {
+  font-size: 20px;
+  margin: 0;
+  text-align: center;
+}
+
+#temp {
+  font-size: 20px;
+  margin: 0;
+  text-align: center;
+}
+
+#tisk {
+  font-size: 20px;
+  margin: 0;
+  text-align: center;
+}
+
+#humidity {
+  font-size: 20px;
+  margin: 0;
+  text-align: center;
+}
+
+#wind {
+  font-size: 20px;
+  margin: 0;
+  text-align: center;
+}
+
+#clouds {
+  font-size: 20px;
+  margin: 0;
+  text-align: center;
+}
+
+#cloudic {
+  height: 20px;
+  margin: -5px;
+  padding: 0;
+}
+
+.color {
+  color: white;
+}
+
+.weaticon {
+  margin: -10px;
+  height: 30px;
+}

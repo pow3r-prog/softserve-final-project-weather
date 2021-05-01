@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="body">
+
+    <div id="findreg">
+            <label for="reg">Write your region here:</label>
+            <input type="text" id="reg" size="20" value="region"/>
+            <input type="button" id="sendreg" value="Send"/> 
+    </div>
+>
+    <div id="yoreg">
+        Weather in <span id="entreg" class="color"></span>
+    </div>
+
+    <div id="yoreg2">
+        <p id="weat">
+            Weather, <span id="weatherr"></span>
+            <img class="weaticon"></img>
+        </p>
+
+        <p id="temp">
+            Temperature,  <span class="color">&#8451;</span>
+            <span id="yoregtemp"></span> 
+        </p>
+
+        <p id="tisk">
+            Pressure, <span class="color">F/A</span> 
+            <span id="atmtisk"></span>
+        </p>
+
+        <p id="humidity">
+            Humidity,  <span class="color">%</span>
+            <span id="hum"></span>
+        </p>
+
+        <p id="wind">
+            Wind speed, <span class="color">mps</span>
+            <span id="windspeed"></span>
+        </p>
+
+        <p id="clouds">
+            Clouds, <img src="img/cloudICON.png" alt="cloud" id="cloudic">
+            <span id="cloud"></span><span id="pcent">%</span>
+        </p>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
